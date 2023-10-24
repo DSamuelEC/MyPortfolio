@@ -1,0 +1,7 @@
+<h1>HOLA {{ title }} </h1>
+<button (click)="changeTitle()">Changeee</button>
+
+<app-product 
+[product]="product" 
+*ngFor="let product of products">
+</app-product>
